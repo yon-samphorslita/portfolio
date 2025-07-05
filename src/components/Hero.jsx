@@ -16,7 +16,7 @@ function Hero() {
           <div className="mb-8 animate-floating">
             <div className="relative">
               <img
-                src="../src/assets/profile.jpg"
+                src="../assets/profile.jpg"
                 alt="Yon Samphorslita"
                 className="w-60 h-60 mx-auto mb-6 border-4 border-white/50 shadow-2xl glow rounded-2xl"
               />
