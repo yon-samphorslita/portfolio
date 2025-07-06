@@ -16,8 +16,8 @@ function Header() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold text-white glow bg-white/15 rounded-full">
-              ✨ Yon Samphorslita
+            <span className="text-xl font-bold text-white glow bg-white/10 rounded-full">
+              Yon Samphorslita
             </span>
           </div>
 

@@ -16,7 +16,7 @@
 
   body {
     font-family: "Amoria", cursive;
-    background: linear-gradient(to bottom, #8b5cf6, #f65ca0);
+    background: linear-gradient(to bottom, #235b00, #6d925d);
     min-height: 100vh;
     color: hsl(var(--foreground));
   }

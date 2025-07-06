@@ -1,6 +1,6 @@
 import { HyperText } from "./ui/hyper-text";
 import { InteractiveIconCloud } from "./ui/interactive-icon-cloud";
-
+import profile from "../assets/profile.jpg";
 function Hero() {
   return (
     <section className="pt-32 pb-16 magical-bg min-h-screen flex items-center relative overflow-hidden">
@@ -16,7 +16,7 @@ function Hero() {
           <div className="mb-8 animate-floating">
             <div className="relative">
               <img
-                src="../assets/profile.jpg"
+                src={profile}
                 alt="Yon Samphorslita"
                 className="w-60 h-60 mx-auto mb-6 border-4 border-white/50 shadow-2xl glow rounded-2xl"
               />
@@ -58,10 +58,16 @@ function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="#contact" className="btn-primary">
+              <a
+                href="#contact"
+                className="btn-primary bg-white/20 p-3 rounded-full hover:bg-white/30 transition-all duration-300 transform hover:scale-110 glow"
+              >
                 Get In Touch
               </a>
-              <a href="#projects" className="btn-secondary">
+              <a
+                href="#projects"
+                className="btn-secondary bg-white/20 p-3 rounded-full hover:bg-white/30 transition-all duration-300 transform hover:scale-110 glow"
+              >
                 View My Work
               </a>
             </div>

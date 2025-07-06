@@ -4,7 +4,7 @@ function About() {
       <div className="absolute top-10 right-10 w-16 h-16 bg-purple-400/20 rounded-full animate-floating"></div>
       <div className="absolute bottom-10 left-10 w-12 h-12 bg-pink-400/20 rounded-full animate-bubble"></div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-title">🌟 About Me 🌟</h2>
+        <h2 className="section-title text-[#38005b] text-2xl">About Me</h2>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="card text-center group">
