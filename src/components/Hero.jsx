@@ -18,7 +18,7 @@ function Hero() {
               <img
                 src={profile}
                 alt="Yon Samphorslita"
-                className="w-60 h-60 mx-auto mb-6 border-4 border-white/50 shadow-2xl glow rounded-2xl"
+                className="w-60 h-60 mx-auto mb-6 border-4 border-white/50 shadow-2xl glow rounded-2xl object-cover"
               />
               <div className="absolute -top-2 -right-2 text-3xl animate-bounce">
                 ✨

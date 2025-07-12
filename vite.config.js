@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/portfolio/" : "/",
+  base: mode === "production" ? "/portfolio/" : "/portfolio/",
   plugins: [react()],
   server: {
     port: 3000,
